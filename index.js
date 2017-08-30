@@ -19,7 +19,7 @@ app.get('/', function(req, res, next){
             // console.log(sres.text)
 
             var $ = cheerio.load(sres.text)
-            var items = []
+            var items = ['hello', 'baka']
 
             res.send(items)
         })
@@ -29,3 +29,6 @@ app.get('/', function(req, res, next){
 app.listen(2333, function(){
     console.log('app is running at port 2333');
 })
+
+// package.json
+// "start": "babel-node index.js --presets es2015,stage-2"
