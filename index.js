@@ -15,12 +15,13 @@ app.get('/', function(req, res, next){
                 return next(err)
             }
 
-            console.log(sres)
+            // console.log(sres)
             // console.log(sres.text)
 
             var $ = cheerio.load(sres.text)
             var items = []
 
+            res.send(items)
         })
 })
 
