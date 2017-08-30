@@ -1,0 +1,30 @@
+{
+  "name": "headless-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baishusama/headless-node.git"
+  },
+  "author": "baishusama <baishusama@outlook.com> (http://baishusama.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baishusama/headless-node/issues"
+  },
+  "homepage": "https://github.com/baishusama/headless-node#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "puppeteer": "^0.10.1",
+    "superagent": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
